@@ -4,7 +4,7 @@ Documentation de la collecte et de la publication des données essentielles de l
 
 ## Génération du site
 
-1. Installer Hugo Extended ([à partir de la source](https://gohugo.io/getting-started/installing/#source), [paquet snap](https://gohugo.io/getting-started/installing/#snap-package)) (le thème Ace requiert Hugo Extended, mais on peut changer de thème)
-2. Lancer `hugo -D`
+1. [Installer Hugo](https://gohugo.io/getting-started/installing/) (pas besoin de Hugo Extended pour le thème hugo-primer) 
+2. Lancer `hugo -D` pour simplement générer le site statique, ou `hugo server -D` pour lancer un server HTTP local
 
 Le site statique est créé dans `/public`.
