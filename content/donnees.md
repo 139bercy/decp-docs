@@ -6,7 +6,7 @@ draft: true
 
 ## Données consolidées et retraitées
 
-Afin de faciliter leur réutilisation, l'État a rassemblé les données publiées par les partenaires et les profils d'acheteur dans un jeu de données unique.
+Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.
 
 De plus, nous profitons de cette étape de consolidation pour effectuer quelques opérations de montée en qualité et de résolution des anomalies.
 
