@@ -8,7 +8,7 @@ draft: true
 
 ### Données consolidées et retraitées
 
-Afin de faciliter leur réutilisation, l'État a rassemblé les données publiées par les partenaires et les profils d'acheteur dans un jeu de données unique.
+Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.
 
 De plus, nous profitons de cette étape de consolidation pour effectuer quelques opérations de montée en qualité et de résolution des anomalies.
 
@@ -29,6 +29,5 @@ Les sources de données utilisées sont les suivantes :
 - données publiées sur le profil d'acheteur AWS ([marches-publics.info](https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=pub.affResultats&IDs=25)), jusqu'au 6 mars, extraites et publiées manuellement par Colin Maudry [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-publies-sur-marches-publics-info-aws/)
 
 ![Progression du nombre de marchés par source](https://plot.ly/~ColinMaudry/1.png)
-
 
 
