@@ -8,7 +8,7 @@ draft: true
 
 Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.
 
-De plus, nous profitons de cette étape de consolidation pour effectuer quelques opérations de montée en qualité et de résolution des anomalies.
+Au cours de cette étape de consolidation, des opérations de mise en qualité et de résolution des anomalies sont réalisées. TODO ajouter un lien vers la section concernée
 
 Ce jeu de données peut être consulté et téléchargé [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5cd57bf68b4c4179299eb0e9/).
 

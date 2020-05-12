@@ -34,3 +34,5 @@ Les profils d'acheteurs qui publient leurs données sur data.gouv.fr :
 
 - achatpublic.com
 - e-marchespublics.com
+
+TODO ajouter les modalités de contact pour les profils d'acheteurs qui souhaitent ajouter leur données.
