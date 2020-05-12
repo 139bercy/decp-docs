@@ -48,7 +48,10 @@ Les données consolidées de la veille sont ensuite téléchargées afin
 2. d'établir la liste des nouveaux marchés du jour (marchés présents dans les données consolidées du jour mais absents des données de la veille)
 3. d'exporter les nouveaux marchés du jour dans un fichier dédié
 
-Enfin le fichier consolidé au format JSON est converti aux formats XML et OCDS JSON, et le fichier JSON des nouveaux marchés du jour est converti au format XML.
+Enfin les fichiers finaux sont produits :
+
+1. le fichier consolidé au format JSON est converti aux formats XML et OCDS JSON
+2. le fichier JSON des nouveaux marchés du jour est converti au format XML.
 
 Résultat :
 
