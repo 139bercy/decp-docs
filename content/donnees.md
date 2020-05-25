@@ -16,7 +16,7 @@ Ce jeu de données peut être consulté et téléchargé [sur data.gouv.fr](http
 
 ### Schémas réglementaires nationaux
 
-Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [etalab/format-commande-publique](https://github.com/etalab/format-commande-publique).
+Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
 
 Ces schémas sont la traduction technique des textes réglementaires (TODO : lien vers section réglementaire).
 
