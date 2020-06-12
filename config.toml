@@ -1,4 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "fr"
 title = "Données essentielles de la commande publique"
-theme = "hugo-primer"
+theme = "ace-documentation"
