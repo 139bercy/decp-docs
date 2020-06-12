@@ -6,7 +6,7 @@ draft: true
 
 ## Dépôt de code
 
-Les scripts de consolidation, de traitement et de publication des données sont hébergés dans un dépôt dédié : [etalab/decp-rama](https://github.com/etalab/decp-rama/).
+Les scripts de consolidation, de traitement et de publication des données sont hébergés dans un dépôt dédié : [139bercy/decp-rama](https://github.com/139bercy/decp-rama/).
 
 ## Collecte
 

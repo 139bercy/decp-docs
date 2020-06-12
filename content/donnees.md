@@ -1,5 +1,5 @@
 ---
-title: "Données"
+title: "Données et schémas"
 date: 2020-05-05T12:57:45+02:00
 draft: true
 ---
@@ -16,7 +16,7 @@ Ce jeu de données peut être consulté et téléchargé [sur data.gouv.fr](http
 
 ### Schémas réglementaires nationaux
 
-Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [etalab/format-commande-publique](https://github.com/etalab/format-commande-publique).
+Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
 
 Ces schémas sont la traduction technique des textes réglementaires (TODO : lien vers section réglementaire).
 
@@ -88,6 +88,18 @@ Voici les caractéristiques des **contrats de concession** inclues dans le sché
   - de durée
   - date de publication des données de modification
   - date de notification de la modification
+
+Pour référencer ces schémas dans vos données et dans votre code informatique, voici les URL que nous vous recommandons d'utiliser :
+
+- Toujours la dernière version :
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/marches.json
+  - XML : non proposé pour le schéma XML ([#46](https://github.com/139bercy/format-commande-publique/issues/46#issuecomment-628710331))
+- Version 1.5.0 (arrêté du 22 mars 2019) :
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
+  - XML : https://raw.githubusercontent.com/etalab/format-commande-publique/master/marches.xsd
+- Version 1.4.0 (arrêté modificatif du 27 juillet 2018) :
+  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.4.0/marches.json
+  - XML : https://raw.githubusercontent.com/139bercy/format-commande-publique/7655b975a208bd9f5adb7e1f9d6fa2dd5475b919/marches.xsd
 
 ### Schémas standards internationaux
 
