@@ -4,11 +4,7 @@ date: 2020-05-05T12:57:45+02:00
 draft: true
 ---
 
-
-
-# Contexte des DECP
-
-[L’arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo/texte) est entré en vigueur le 1er octobre 2018, et avec lui l’obligation pour les 70 000 acheteurs publics français (collectivités, ministères, hôpitaux publics, etc.) de publier les données essentielles des marchés publics d'un montant supérieur à 25 000 euros (40 000 euros depuis le 1er janvier 2020 sur leur profil d'acheteur.
+[L’arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo/texte) est entré en vigueur le 1er octobre 2018, et avec lui l’obligation pour les 70 000 acheteurs publics français (collectivités, ministères, hôpitaux publics, etc.) de publier les données essentielles des marchés publics d'un montant supérieur à 25 000 euros (40 000 euros depuis le 1er janvier 2020) sur leur profil d'acheteur.
 
 Conscient de leur valeur, la mission Etalab et le ministère de l'Économie et des Finances ont entrepris de rassembler ces données dans un même jeu de données afin d'accroître leur visibilité et stimuler leur réutilisation par la société civile et les acheteurs eux-mêmes.
 
@@ -17,11 +13,11 @@ Conscient de leur valeur, la mission Etalab et le ministère de l'Économie et d
 Le rassemblement des données s'inscrit dans la poursuite des objectifs suivant :
 
 - faciliter l'accès aux données et leur réutilisation par les acheteurs publics, la société civile et les services du Ministère des Finances
-- procéder à des corrections dans les données publiées par les acheteurs
+- procéder à des corrections et enrichissements dans les données publiées par les acheteurs
 
 ## Évolutions réglementaires
 
-- **[Arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/201<F12>7/4/14/ECFM1637256A/jo/texte)** : arrêté initial.
+- **[Arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/201<F12>7/4/14/ECFM1637256A/jo/texte)** : arrêté initial, abrogé.
 - **[Arrêté modificatif du 27 juillet 2018](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037282994&dateTexte=&categorieLien=id)**
   - `dateSignatureModification` est remplacé par `dateSignatureModification`
   - fin de l'obligation de publier les données des marchés défense et sécurité
