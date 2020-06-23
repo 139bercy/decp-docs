@@ -4,7 +4,8 @@ Documentation de la collecte et de la publication des données essentielles de l
 
 ## Cloner le dépôt
 
-Ce dépôt référence un sumodule, le thème Ace. Pour récupérer l'ensemble des fichiers nécessaires au bon fonctionnement du site :
+
+Ce dépôt référence un submodule, le thème Ace. Pour récupérer l'ensemble des fichiers nécessaires au bon fonctionnement du site :
 
 ```
 git clone https://github.com/139bercy/decp-docs.git --recursive
