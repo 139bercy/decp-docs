@@ -4,11 +4,11 @@ slug: publier-donnees-essentielles-attribution
 weight: 30
 ---
 
-Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché (TODO lien vers la réglementation).
+Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché ([voir les évolutions de la réglementation]({{< ref "/" >}})).
 
 ## Structure des données à publier
 
-La structure des données à publier est définie par des schémas de données aux formats XML et JSON (TODO lien vers la page schémas).
+La structure des données à publier est définie par des [schémas de données]({{< ref "/schemas" >}}) aux formats XML et JSON.
 
 Pour en savoir plus sur la publication des données, consultez [le site de la direction des affaires juridiques](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique), ainsi que [l’article de blog](https://www.data.gouv.fr/fr/posts/le-point-sur-les-donnees-essentielles-de-la-commande-publique/) consacré par data.gouv.fr à ce sujet.
 

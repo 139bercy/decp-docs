@@ -8,7 +8,7 @@ weight: 2
 
 Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
 
-Ces schémas sont la traduction technique des textes réglementaires (TODO : lien vers section réglementaire).
+Ces schémas sont la traduction technique des [textes réglementaires]({{< ref "/" >}}).
 
 Voici les caractéristiques des **marchés publics** inclues dans le schéma :
 

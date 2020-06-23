@@ -1,7 +1,6 @@
 ---
 title: "Contexte"
 date: 2020-05-05T12:57:45+02:00
-draft: true
 ---
 
 [L’arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo/texte) est entré en vigueur le 1er octobre 2018, et avec lui l’obligation pour les 70 000 acheteurs publics français (collectivités, ministères, hôpitaux publics, etc.) de publier les données essentielles des marchés publics d'un montant supérieur à 25 000 euros (40 000 euros depuis le 1er janvier 2020) sur leur profil d'acheteur.
