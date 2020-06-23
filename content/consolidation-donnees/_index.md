@@ -1,7 +1,7 @@
 ---
 title: "Consolidation et traitement des données"
 date: 2020-05-05T12:57:45+02:00
-draft: true
+weight: 40
 ---
 
 ## Dépôt de code

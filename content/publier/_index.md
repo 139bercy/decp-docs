@@ -1,10 +1,8 @@
-
 ---
-title: Publier les données essentielles d'attribution des marchés
+title: Publier ses données essentielles
 slug: publier-donnees-essentielles-attribution
+weight: 30
 ---
-
-# Publier les données essentielles d'attribution des marchés
 
 Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché (TODO lien vers la réglementation).
 
