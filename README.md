@@ -4,6 +4,7 @@ Documentation de la collecte et de la publication des données essentielles de l
 
 ## Cloner le dépôt
 
+
 Ce dépôt référence un submodule, le thème Ace. Pour récupérer l'ensemble des fichiers nécessaires au bon fonctionnement du site :
 
 ```

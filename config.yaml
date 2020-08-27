@@ -1,0 +1,9 @@
+---
+baseURL: https://139bercy.github.io/decp-docs/
+languageCode: fr
+title: Données essentielles de la commande publique
+theme: ace-documentation
+orderSections: weight
+defaultContentLanguage: fr
+params:
+  disableSearch: true

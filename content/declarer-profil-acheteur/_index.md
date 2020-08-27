@@ -1,9 +1,8 @@
 ---
-title: Publier un profil d’acheteur public
-slug: publier-profil-acheteur
+title: Déclarer un profil d'acheteur
+slug: déclarer-profil-acheteur
+weight: 50
 ---
-
-# Déclarer un profil d’acheteur
 
 ## Qui doit déclarer
 

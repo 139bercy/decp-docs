@@ -1,7 +1,7 @@
 ---
 title: "Consolidation et traitement des données"
 date: 2020-05-05T12:57:45+02:00
-draft: true
+weight: 40
 ---
 
 ## Dépôt de code
@@ -10,20 +10,20 @@ Les scripts de consolidation, de traitement et de publication des données sont 
 
 ## Collecte
 
-Les données sont téléchargées et traitées en intégralité toutes les nuits, autour de 5 heure du matin, depuis les sources de données identifiées (TODO lien vers les section "Sources de données").
+Les données sont téléchargées et traitées en intégralité toutes les nuits, autour de 5 heure du matin, depuis [les sources de données identifiées]({{< ref "/donnees-publiees" >}}).
 
 ## Correction des anomalies
 
 ### Données non respectueuses des schémas réglementaires
 
-Données ne respectant pas la structure définie par les schémas (TODO lien vers la section des schémas), et donc la structure définie dans la réglementation. Ces anomalies ne sont corrigées que si elles sont détectées et qu'elles peuvent être corrigées.
+Données ne respectant pas la structure définie par les [schémas]({{< ref "/schemas" >}}), et donc la structure définie dans [la réglementation]({{< ref "/" >}}). Ces anomalies ne sont corrigées que si elles sont détectées et qu'elles peuvent être corrigées.
 
 Par exemple :
 
 - si un champ de données est manquant, on ne peut pas l'ajouter ne pouvant en connaître le contenu
 - si une date n'est pas au bon format ou qu'une valeur normée (ex : nom de procédure) n'a pas la bonne casse, on peut appliquer un traitement automatisé qui corrigera l'erreur
 
-Les données consolidées ne sont donc pas conformes aux schémas car les données publiées par les partenaires (TODO lien vers les sources) ne sont pas toujours valides et que l'on ne peut pas corriger toutes les entorses aux schémas.
+Les données consolidées ne sont donc pas conformes aux schémas car les données publiées par [les partenaires]({{< ref "/donnees-publiees/#les-sources-de-donn%C3%A9es" >}}) ne sont pas toujours valides et que l'on ne peut pas corriger toutes les entorses aux schémas.
 
 ### Données inexploitables
 
@@ -55,7 +55,7 @@ Enfin les fichiers finaux sont produits :
 
 Résultat :
 
-- l'ensemble des marchés consolidé est publié aux formats suivants (TODO lien vers la section "Les schémas") :
+- l'ensemble des marchés consolidé est publié aux formats suivants (voir aussi [les schémas]({{< ref "/schemas" >}})) :
   - JSON réglementaire
   - XML réglementaire
   - OCDS JSON

@@ -1,22 +1,20 @@
-
 ---
-title: Publier les données essentielles d'attribution des marchés
+title: Publier ses données essentielles
 slug: publier-donnees-essentielles-attribution
+weight: 30
 ---
 
-# Publier les données essentielles d'attribution des marchés
-
-Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché (TODO lien vers la réglementation).
+Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché ([voir les évolutions de la réglementation]({{< ref "/" >}})).
 
 ## Structure des données à publier
 
-La structure des données à publier est définie par des schémas de données aux formats XML et JSON (TODO lien vers la page schémas).
+La structure des données à publier est définie par des [schémas de données]({{< ref "/schemas" >}}) aux formats XML et JSON.
 
 Pour en savoir plus sur la publication des données, consultez [le site de la direction des affaires juridiques](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique), ainsi que [l’article de blog](https://www.data.gouv.fr/fr/posts/le-point-sur-les-donnees-essentielles-de-la-commande-publique/) consacré par data.gouv.fr à ce sujet.
 
 ## Publier des données par l’intermédiaire de l’API de data.gouv.fr
 
-La documentation de l’API est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), le détail des propriétés des jeux de données est [visible sur cette page](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
+La documentation de l’API est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), le détails des propriétés des jeux de données est [visible sur cette page](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
 
 Afin de faciliter la localisation et donc l’utilisation des données essentielles, la publication de ces données doit respecter une certaine structure. Les deux structures proposées sont les suivantes :
 
@@ -129,3 +127,4 @@ Identique au nom de fichier.
 #### Type de ressource (`type`)
 
 Renseignez `main`.
+
