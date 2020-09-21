@@ -7,3 +7,8 @@ orderSections: weight
 defaultContentLanguage: fr
 params:
   disableSearch: true
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
