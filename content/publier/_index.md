@@ -14,7 +14,7 @@ Pour en savoir plus sur la publication des données, consultez [le site de la di
 
 ## Publier des données par l’intermédiaire de l’API de data.gouv.fr
 
-La documentation de l’API est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), le détails des propriétés des jeux de données est [visible sur cette page](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
+La documentation de l’API est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), le détail des propriétés des jeux de données est [visible sur cette page](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
 
 Afin de faciliter la localisation et donc l’utilisation des données essentielles, la publication de ces données doit respecter une certaine structure. Les deux structures proposées sont les suivantes :
 
