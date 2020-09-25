@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/donnees-publiees/</loc>
+    <lastmod>2020-05-05T12:57:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/schemas/</loc>
+    <lastmod>2020-05-05T12:57:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/publier/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/consolidation-donnees/</loc>
+    <lastmod>2020-05-05T12:57:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/processus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/declarer-profil-acheteur/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/contact/</loc>
+    <lastmod>2020-08-21T12:57:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/</loc>
+    <lastmod>2020-05-05T12:57:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://colinmaudry.github.io/decp-docs/tags/</loc>
+  </url>
+  
+</urlset>
