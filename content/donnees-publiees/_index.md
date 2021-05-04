@@ -21,7 +21,10 @@ Les sources de données utilisées sont les suivantes :
 - données issues du profil d'acheteur [Achatpublic.com](https://www.data.gouv.fr/fr/datasets/aife-de-44785462100045/) mises à disposition via l'API DUME de l'AIFE
 - données issues du profil d'acheteur [Dématis](https://www.data.gouv.fr/fr/organizations/dematis/) facilitant le téléchargement des données de ses clients ([e-marchespublics.com](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-e-marchespublics-com-1/#_))
 - données publiées [sur le portail Open Data du Grand Lyon](https://data.grandlyon.com/citoyennete/marchf-public-de-la-mftropole-de-lyon/)
-- données publiées sur le profil d'acheteur AWS ([marches-publics.info](https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=pub.affResultats&IDs=25)), jusqu'au 6 mars, extraites et publiées manuellement par Colin Maudry [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-publies-sur-marches-publics-info-aws/)
+- données publiées sur le profil d'acheteur AWS ([marches-publics.info](https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=pub.affResultats&IDs=25)), publiées [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-publies-sur-marches-publics-info-aws/)
+- données du profil d'acheteur Mégalis Bretagne et mises à disposition [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-de-megalis-bretagne/)
+- données du profil d'acheteur Focus Marchés / Territoires numériques et mises à disposition [sur leur site](http://focus-marches.ternum-bfc.fr/xml/)
+- données du profil d'acheteur Maximilien et rassemblées par Colin Maudry [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-des-marches-publics-des-plateformes-atexo/)
 
 ## Monitoring
 
