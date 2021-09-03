@@ -1,7 +1,7 @@
 ---
 title: "Données publiées"
 date: 2020-05-05T12:57:45+02:00
-weight: 1
+weight: 6
 ---
 
 Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.

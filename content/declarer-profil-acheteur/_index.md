@@ -1,7 +1,7 @@
 ---
 title: Déclarer un profil d'acheteur
 slug: déclarer-profil-acheteur
-weight: 50
+weight: 2
 ---
 
 ## Qui doit déclarer

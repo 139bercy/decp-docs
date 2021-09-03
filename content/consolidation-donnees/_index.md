@@ -1,7 +1,7 @@
 ---
-title: "Consolidation et traitement des données"
+title: "Agrégation, consolidation et premier traitement des données"
 date: 2020-05-05T12:57:45+02:00
-weight: 40
+weight: 4
 ---
 
 ## Dépôt de code
