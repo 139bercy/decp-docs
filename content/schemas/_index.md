@@ -7,11 +7,15 @@ chapter: true
 
 ### Schémas réglementaires nationaux
 
-Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
+Traduction technique des [textes réglementaires]({{< ref "/" >}}), les schémas de données reprennent la distinction entre marchés publics et contrats de concessions. Publiés aux formats JSON et XML, ceux-ci sont accessibles dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
 
-Ces schémas sont la traduction technique des [textes réglementaires]({{< ref "/" >}}).
+| versions | texte réglementaire | JSON | XML |
+|--|--|--|--|
+| dernière | à jour | <https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/marches.json> | non disponible pour le schéma XML ([#46](https://github.com/139bercy/format-commande-publique/issues/46#issuecomment-628710331)) |
+| 1.5.0 | arrêté du 22 mars 2019 | <https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json> | https://raw.githubusercontent.com/etalab/format-commande-publique/master/marches.xsd |
+| 1.4.0  | arrêté modificatif du 27 juillet 2018 | <https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.4.0/marches.json> | <https://raw.githubusercontent.com/139bercy/format-commande-publique/7655b975a208bd9f5adb7e1f9d6fa2dd5475b919/marches.xsd>
 
-Voici les caractéristiques des **marchés publics** inclues dans le schéma :
+#### Marchés publics
 
 - identifiant du marché
 - objet
@@ -26,7 +30,7 @@ Voici les caractéristiques des **marchés publics** inclues dans le schéma :
   - nom du titulaire
 - nature du marché (Marché, Accord-cadre, Marché subséquent, Marché de partenariat)
 - durée du marché (en mois)
-- [code CPV](https://www.collectivites-locales.gouv.fr/acces-a-nomenclature-europeenne)
+- code [*Common Procurement Vocabulary* (CPV)](https://www.collectivites-locales.gouv.fr/commande-publique/acces-la-nomenclature-europeenne), vocabulaire communautaire pour les marchés publics de l'Union européenne
 - forme du prix (Ferme, Révisable, Ferme et actualisable)
 - lieu principal d'exécution
   - nom du lieu d'exécution
@@ -42,7 +46,7 @@ Voici les caractéristiques des **marchés publics** inclues dans le schéma :
   - date de publication des données de modification
   - date de notification de la modification
 
-Voici les caractéristiques des **contrats de concession** inclues dans le schéma :
+#### Contrats de concessions
 
 - identifiant du contrat de concession
 - objet
@@ -80,21 +84,7 @@ Voici les caractéristiques des **contrats de concession** inclues dans le sché
   - date de publication des données de modification
   - date de notification de la modification
 
-Pour référencer ces schémas dans vos données et dans votre code informatique, voici les URL que nous vous recommandons d'utiliser :
-
-- Toujours la dernière version :
-  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/latest/marches.json
-  - XML : non proposé pour le schéma XML ([#46](https://github.com/139bercy/format-commande-publique/issues/46#issuecomment-628710331))
-- Version 1.5.0 (arrêté du 22 mars 2019) :
-  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.5.0/marches.json
-  - XML : https://raw.githubusercontent.com/etalab/format-commande-publique/master/marches.xsd
-- Version 1.4.0 (arrêté modificatif du 27 juillet 2018) :
-  - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.4.0/marches.json
-  - XML : https://raw.githubusercontent.com/139bercy/format-commande-publique/7655b975a208bd9f5adb7e1f9d6fa2dd5475b919/marches.xsd
-
 ### Schémas standards internationaux
 
-Les données sont également publiées selon le standard [Open Contracting Data Standard](https://standard.open-contracting.org/latest/fr/) pour permettre la comparaison et l'exploitation des données à l'échelle internationale.
-
-À ce jour, seules les données initiales d'attribution sont publiées au format OCDS, pas les modifications (montant, titulaires, durée). Les attributions modifiées une fois ou plus représentent moins de 1 % des données.
+Les données sont également publiées selon le standard [Open Contracting Data Standard](https://standard.open-contracting.org/latest/fr/) pour permettre la comparaison et l'exploitation des données à l'échelle internationale. À ce jour, seules les données initiales d'attribution sont publiées au format OCDS, les modifications (montant, titulaires, durée) n'étant pas incluses. Les données d'attributions modifiées une fois ou plus représentent moins de 1% de l'ensemble des commandes.
 

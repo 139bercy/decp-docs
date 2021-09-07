@@ -1,20 +1,10 @@
 ---
-title: Publier ses données essentielles
+title: Publier ses données essentielles via API
 slug: publier-donnees-essentielles-attribution
 weight: 3
 ---
 
-Depuis le 1<sup>er</sup> octobre 2018, les acheteurs publics doivent publier les données d’attribution de leur marché, et ce, au plus tard deux mois après la notification du marché ([voir les évolutions de la réglementation]({{< ref "/" >}})).
-
-## Structure des données à publier
-
-La structure des données à publier est définie par des [schémas de données]({{< ref "/schemas" >}}) aux formats XML et JSON.
-
-Pour en savoir plus sur la publication des données, consultez [le site de la direction des affaires juridiques](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique), ainsi que [l’article de blog](https://www.data.gouv.fr/fr/posts/le-point-sur-les-donnees-essentielles-de-la-commande-publique/) consacré par data.gouv.fr à ce sujet.
-
-## Publier des données par l’intermédiaire de l’API de data.gouv.fr
-
-La documentation de l’API est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), le détail des propriétés des jeux de données est [visible sur cette page](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
+La documentation de l’API data.gouv.fr est [consultable en ligne](https://www.data.gouv.fr/fr/apidoc), de même que le [détail des propriétés](https://www.data.gouv.fr/fr/apidoc/#!/datasets/create_dataset).
 
 Afin de faciliter la localisation et donc l’utilisation des données essentielles, la publication de ces données doit respecter une certaine structure. Les deux structures proposées sont les suivantes :
 
@@ -23,9 +13,7 @@ Afin de faciliter la localisation et donc l’utilisation des données essentiel
 
 ### Jeu de données
 
-Pour des raisons d’archivage, le téléversement des fichiers de données sur data.gouv.fr est fortement préféré par rapport à un lien vers des serveurs externes.
-
-Une fois que le jeu de données a été créé, vous pouvez y ajouter des `ressources` ([API ressource](https://www.data.gouv.fr/fr/apidoc/#!/datasets/upload_new_dataset_resource)).
+Pour des raisons d’archivage, le téléversement des fichiers de données sur data.gouv.fr est fortement préféré par rapport à un lien vers des serveurs externes. Une fois que le jeu de données a été créé, vous pouvez y ajouter des `ressources` ([API ressource](https://www.data.gouv.fr/fr/apidoc/#!/datasets/upload_new_dataset_resource)).
 
 Exemple de commande :
 
@@ -47,12 +35,6 @@ Exemple :
 #### Description (`description`)
 
 La description attendue est un texte générique décrivant le contexte de publication des données essentielles, ainsi que quelques liens utiles. Le texte suivant remplit ces conditions et peut être étendu par le producteur, notamment avec un lien vers l’interface de visualisaton de données du profil d’acheteur concerné.
-
-> [L’arrêté du 14 avril 2017](https://www.legifrance.gouv.fr/eli/arrete/2017/4/14/ECFM1637256A/jo/texte) impose à tous les acheteurs publics la publication des données essentielles de la commande publique. Ainsi, depuis le 1er octobre 2018, les acheteurs publics doivent publier les données d’attribution au plus tard deux mois après la notification du marché sur leur profil d'acheteur.
->
-> La structure des données est définie par [des schémas XML et JSON](https://github.com/139bercy/format-commande-publique) qui appliquent les exigences réglementaires.
->
-> Pour plus d’informations, vous pouvez consulter [la page thématique](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique) sur le site de la Direction des Affaires Juridiques.
 
 #### Mot-clés (`tags`)
 

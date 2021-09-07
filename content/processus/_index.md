@@ -4,6 +4,8 @@ date: 2020-08-26:57:45+02:00
 weight: 5
 ---
 
+Les processus automatisés mis en oeuvre sur les projets decp-gw, decpt-rama et decp-monitoring sont décrits ci-dessous.
+
 ## decp-gw
 
 **Description** : téléchargement des données PES marché de la DGFiP et publication sur files.data.gouv.fr
