@@ -10,8 +10,6 @@ Une fois les decp agrégéés, celle-ci sont retraitées afin d'être publiées 
 
 ### Nettoyage
 
-TODO : explication de l'ensemble du traitement réalisé pour la partie nettoyage des données. 
-
 #### Travail sur les titulaires
 
 Si l'on distingue, au sein des decp, deux types de données -- les marchés et les concessions -- nous avons fusionnés les colonnes comportant des informations semblables.
@@ -42,7 +40,7 @@ Les codes, ou variables d'identifications, recoupent aussi bien de la variable `
 
 #### Travail sur la géographie administrative
 
-On récupére les codes de départements des marchés, en y ajoutant les libellés et la région. 
+On récupére les codes de départements des marchés, en y ajoutant les libellés et la région. Cet ajout est fait à partir de notre base [Référentiel Géographique](https://data.economie.gouv.fr/explore/dataset/georeferentielcommunesbercyhub/table/)
 
 - Extraction du code département de la colonne `lieuExecution.code` et stocké dans `codeDepartementExecution`
 - Ajout du libellé du département / code de la région / libellé de la région respectivement dans `libelleDepartementExecution`, `codeRegionExecution` et `libelleRegionExecution`
@@ -79,11 +77,11 @@ Remplacement du caractère '�' par 'XXXXX' dans la colonne objet
 
 La partie enrichissement des données va nous permettre d'ajouter, grâce à des sources externes, de la donnée dans nos DECP. Pour cela nous utiliserons les sources de données suivantes:
 
-   - INSEE
+   - Référentiel Géographique, également utilisé dans la partie nettoyage.
        - Code des régions, départements, arrondissements, cantons.
-       - La base SIREN 
-   - OpenDatasoft
-       - Géolocalisations des communes
+       - libellé des régions, départements, arrondissements, cantons.
+       - Géolocalisation des communes.
+   - Référentiel des entreprises __Insérer le lien de data economie__.
    - SIMAP (Système d'Information pour les MArchés Publics)
        - Nomencalture européenne des codes CPV
 
