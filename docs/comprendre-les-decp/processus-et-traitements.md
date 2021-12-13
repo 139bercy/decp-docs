@@ -1,14 +1,13 @@
 # Processus automatisés <!-- {docsify-ignore-all} -->
 
-
-
-## Collecte
-
-Les données sont téléchargées et traitées en intégralité toutes les nuits, autour de 5 heure du matin, depuis [les sources de données identifiées](comprendre-les-decp/sources.md).
+Plusieurs processus s'exécutent de manière automatisée dans le cadre du [cycle de vie des DECP](comprendre-les-decp/cycle-de-vie.md) :
+* **decp-gw**
+* **decp-rama**
+* **decp-augmente**
 
 ## decp-gw
 
-**Description** : téléchargement des données PES marché de la DGFiP et publication sur files.data.gouv.fr
+Téléchargement des données PES marché de la DGFiP et publication sur *data.gouv.fr*
 
 **Code source** :
 
@@ -40,9 +39,11 @@ Les données sont téléchargées et traitées en intégralité toutes les nuits
 6. fusion de l'ensemble des XML dans un seuil fichier `dgfip-pes-decp.xml`
 7. publication des nouveaux fichiers et du nouveau `dgfip-pes-decp.xml` sur [files.data.gouv.fr](https://files.data.gouv.fr/decp/) avec `rsync` ([jeu de données](https://www.data.gouv.fr/fr/datasets/donnees-essentielles-de-la-commande-publique-transmises-via-le-pes-marche/))
 
+
+
 ## decp-rama
 
-**Description** : téléchargement des DECP publiques et publication sur data.gouv.fr
+Consolidation de tous les sources DECP et publication sur *data.gouv.fr*.
 
 **Code source** :
 
@@ -87,9 +88,13 @@ Les données sont téléchargées et traitées en intégralité toutes les nuits
   - les fichiers consolidés JSON, XML et OCDS JSON remplacent les versions précédentes
   - les fichiers du jour JSON et XML sont ajoutés
 
-## decp-monitoring
 
-TODO
+
+## decp-augmente
+
+Enrichissement du fichier consolidé d'informations supplémentaires à l'aide de sources externes, mise en qualité, et publication sur *data.gouv.fr* et *data.economie.gouv.fr*.
+
+
 
 # Traitements <!-- {docsify-ignore-all} -->
 
