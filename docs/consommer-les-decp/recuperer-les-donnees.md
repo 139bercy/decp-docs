@@ -1,9 +1,9 @@
 # Récupérer les données <!-- {docsify-ignore-all} -->
 
 Plusieurs jeux de données sont à considérer, selon leurs positions dans le [cycle de vie](./consommer-les-decp/cycle-de-vie.md):
-* Données brutes
-* Données consolidées
-* Données augmentées
+* **Données brutes**
+* **Données consolidées**
+* **Données augmentées**
 
 ### Télécharger les données brutes 
 
@@ -16,9 +16,9 @@ Plusieurs jeux de données sont à considérer, selon leurs positions dans le [c
 
 ### Télécharger les données consolidées
 
-Le fichier consolidé DECP.json est disponible sur [data.gouv](https://www.data.gouv.fr/en/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides/)
+Le fichier consolidé est disponible sur [data.gouv](https://www.data.gouv.fr/en/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides/)
 
 
 ### Télécharger les données augmentées
 
-Le fichier augmenté généré en sortie du traitememnt de DECP augmente est disponible sur [data.economie.gouv](https://data.economie.gouv.fr/explore/dataset/decp_augmente/export/)
+Le fichier augmenté est disponible sur [data.economie.gouv](https://data.economie.gouv.fr/explore/dataset/decp_augmente/export/)
