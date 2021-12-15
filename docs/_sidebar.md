@@ -1,4 +1,6 @@
 
+* [Accueil](./)
+
 * Comprendre les DECP
 
   * [Contexte et contenu](comprendre-les-decp/contexte.md)
