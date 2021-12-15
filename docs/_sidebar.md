@@ -18,6 +18,6 @@
 * Consommer les DECP
 
   * [Récupérer les données](consommer-les-decp/recuperer-les-donnees.md)
-  * [Supervision](consommer-les-decp/supervision.md)
+  * [Outils de supervision des données](consommer-les-decp/supervision.md)
 
 * [Contact](contact.md)

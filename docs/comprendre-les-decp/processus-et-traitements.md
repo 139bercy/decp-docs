@@ -7,24 +7,23 @@ Plusieurs processus s'exécutent de manière automatisée dans le cadre du [cycl
 
 ## decp-gw
 
+#### Description
+
 Téléchargement des données PES marché de la DGFiP et publication sur *data.gouv.fr*
 
-**Code source** :
+#### Caractéristiques
 
-- hébergement : Gitlab de la mission Etalab
-- langages :
-  - bash
-  - xslt
-- publicité : confidentiel (contient des données de configuration)
+|            |   |
+|-----------------------|:-:|
+| Hébergement           |  Gitlab de la mission Etalab  |
+| Langages              | bash, xslt
+| Visibilité            |  Privé |
+| Fréquence d'exécution |  Tous les jours à 0:45 CET |
+| Durée d'exécution moyenne     |  5 minutes |
+| Infrastructure     |  VPS loué par la mission Etalab, Debian Linux 4.9, 8 GB RAM |
 
-**Exécution** :
 
-- serveur : VPS loué par la mission Etalab, Debian Linux 4.9, 8 GB RAM
-- fréquence : tous les jours à 0:45 CET
-- durée :
-  - moyenne : 5 minutes
-
-**Actions** :
+#### Détails de la pipeline
 
 <!-- Méthode d'inclusion utilisée : dans draw.io, faites File/Export as.../HTML, et ne gardez que <div> et          <script> -->
 
@@ -43,26 +42,23 @@ Téléchargement des données PES marché de la DGFiP et publication sur *data.g
 
 ## decp-rama
 
+#### Description
+
 Consolidation de tous les sources DECP et publication sur *data.gouv.fr*.
 
-**Code source** :
+#### Caractéristiques
 
-- hébergement : compte Github du Ministère de l'économie, des finances et de la relance (https://github.com/139bercy/decp-rama)
-- langages :
-  - bash
-  - xslt
-  - [jq](https://stedolan.github.io/jq/)
-- publicité : public, licence MIT
+|            |   |
+|-----------------------|:-:|
+| Hébergement           |  Compte Github du Ministère de l'économie, des finances et de la relance (https://github.com/139bercy/decp-rama)  |
+| Langages              | bash, xslt, [jq](https://stedolan.github.io/jq/)
+| Visibilité            |  Public |
+| Fréquence d'exécution |  Du mardi au samedi, à 4:00 CET |
+| Durée d'exécution moyenne     |  Entre 1 et 4h |
+| Infrastructure     |  instance gratuite de CircleCI ([journaux](https://app.circleci.com/pipelines/github/139bercy/decp-rama)) |
 
-**Exécution** :
 
-- serveur : instance gratuite de CircleCI ([journaux](https://app.circleci.com/pipelines/github/139bercy/decp-rama))
-- fréquence : du mardi au samedi, à 4:00 CET
-- durée :
-  - moyenne : 50 minutes
-  - maximale : 4 heures
-
-**Actions** :
+#### Détails de la pipeline
 
 [schema rama](../_media/decp-rama.drawio.html ':include')
 
@@ -89,18 +85,11 @@ Consolidation de tous les sources DECP et publication sur *data.gouv.fr*.
   - les fichiers du jour JSON et XML sont ajoutés
 
 
+#### Détails des traitements réalisés
 
-## decp-augmente
+##### Correction des anomalies
 
-Enrichissement du fichier consolidé d'informations supplémentaires à l'aide de sources externes, mise en qualité, et publication sur *data.gouv.fr* et *data.economie.gouv.fr*.
-
-
-
-# Traitements <!-- {docsify-ignore-all} -->
-
-## Correction des anomalies <!-- {docsify-ignore-all} -->
-
-### Données non respectueuses des schémas réglementaires
+###### Données non respectueuses des schémas réglementaires
 
 Données ne respectant pas la structure définie par les [schémas](comprendre-les-decp/schemas.md), et donc la structure définie dans la réglementation. Ces anomalies ne sont corrigées que si elles sont détectées et qu'elles peuvent être corrigées.
 
@@ -111,7 +100,7 @@ Par exemple :
 
 Les données consolidées ne sont donc pas conformes aux schémas car les données publiées par les partenaires ne sont pas toujours valides et que l'on ne peut pas corriger toutes les entorses aux schémas.
 
-### Données inexploitables
+###### Données inexploitables
 
 Données incohérentes ou manifestement erronées, susceptibles d'altérer significativement leur analyse.
 
@@ -124,7 +113,7 @@ Par exemple :
 
 Ces données sont extraites des données consolidées et publiées dans un fichier à part (TODO à préciser après la stabilisation des datasets).
 
-## Consolidation
+##### Consolidation
 
 Les données au format XML sont converties au format JSON, puis les données de chaque source sont fusionnées dans un seul fichier JSON.
 
@@ -149,21 +138,24 @@ Résultat :
   - JSON réglementaire
   - XML réglementaire
 
-## Publication
 
-Les données consolidées et les fichiers du jour sont publiées [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5cd57bf68b4c4179299eb0e9/) via l'API.
+## decp-augmente
 
-# Les différents repositories Github <!-- {docsify-ignore-all} -->
+#### Description
 
-Github de l'équipe https://github.com/139bercy
+Enrichissement du fichier consolidé d'informations supplémentaires à l'aide de sources externes, mise en qualité, et publication sur *data.gouv.fr* et *data.economie.gouv.fr*.
 
-## Dépôt de code
+#### Caractéristiques
 
-Les scripts de consolidation, de traitement et de publication des données sont hébergés dans un dépôt dédié : [139bercy/decp-rama](https://github.com/139bercy/decp-rama/).
+|            |   |
+|-----------------------|:-:|
+| Hébergement           |  Compte Github du Ministère de l'économie, des finances et de la relance (https://github.com/139bercy/decp-augmente)  |
+| Langages              | bash, Python |
+| Visibilité            |  Public |
+| Fréquence d'exécution |  Tous les jours à 6h |
+| Durée d'exécution moyenne     |  30min |
+| Infrastructure     |  instance gratuite de CircleCI ([journaux](https://app.circleci.com/pipelines/github/139bercy/decp-augmente)) |
 
-Les scripts permettant d'ajouter au fichier DECP consolidés des informations sur les établissements et les acheteurs venant de l'INSEE ainsi que certaines corrections sont hébergés dans le dépot [139bercy/decp-augmente](https://github.com/139bercy/decp-augmente)
+#### Détails des traitements réalisés
 
-Les scripts supportants le [tableau de bord de supervision](https://139bercy.github.io/decp-monitoring/)
-sont hébergés dans le dépot [139bercy/decp-monitoring](https://github.com/139bercy/decp-monitoring)
-
-DECP docs https://github.com/139bercy/decp-docs
+Consulter [la documentation du projet sur GitHub](https://github.com/139bercy/decp-augmente/blob/master/README.md).
