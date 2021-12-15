@@ -1,6 +1,6 @@
 # Schémas de données <!-- {docsify-ignore-all} -->
 
-## Schémas réglementaires nationaux
+### Schémas réglementaires nationaux
 
 Les schémas réglementaires décrivent la même structure de données aux formats JSON et XML. Ces schémas sont publiés dans un dépôt dédié : [139bercy/format-commande-publique](https://github.com/139bercy/format-commande-publique).
 
@@ -85,7 +85,7 @@ Pour référencer ces schémas dans vos données et dans votre code informatique
   - JSON : https://schema.data.gouv.fr/schemas/139bercy/format-commande-publique/1.4.0/marches.json
   - XML : https://raw.githubusercontent.com/139bercy/format-commande-publique/7655b975a208bd9f5adb7e1f9d6fa2dd5475b919/marches.xsd
 
-## Schémas standards internationaux
+### Schémas standards internationaux
 
 Les données sont également publiées selon le standard [Open Contracting Data Standard](https://standard.open-contracting.org/latest/fr/) pour permettre la comparaison et l'exploitation des données à l'échelle internationale.
 

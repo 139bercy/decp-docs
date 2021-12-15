@@ -1,12 +1,12 @@
-# Qui doit déclarer <!-- {docsify-ignore-all} -->
+# Déclarer son profil acheteur <!-- {docsify-ignore-all} -->
+
+### Qui doit déclarer
 
 La déclaration du profil d’acheteur est effectuée par l’acheteur, ou toute personne habilitée par celui-ci, sur [data.gouv.fr](https://data.gouv.fr)). L’objectif est d’impliquer les **éditeurs** de profils d’acheteurs afin de simplifier la déclaration des profils d’acheteurs initialement confiée aux acheteurs publics. Dans le cas où l’éditeur n’est pas en mesure d’assurer la déclaration, l’administrateur du profil d’acheteur ou l’acheteur peut le faire directement.
 
 Cette déclaration est décrite dans [l'article 4 de l'arrêté du 22 mars 2019](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=83D13947C0F1553E2F5BEFBBE3400B3D.tplgfr28s_1?idArticle=JORFARTI000038318529&cidTexte=JORFTEXT000038318516&dateTexte=20190331&categorieLien=id).
 
-# Comment déclarer
-
-## Format de fichier
+### Format de fichier
 
 Les éditeurs de profil d’acheteur sont invités à créer un fichier au format CSV contenant les informations suivantes :
 
@@ -17,7 +17,7 @@ Les éditeurs de profil d’acheteur sont invités à créer un fichier au forma
 
 Un modèle de fichier CSV est disponible [sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/structure-du-fichier-de-declaration-de-profil-dacheteur/#).
 
-## Dépôt sur data.gouv.fr
+### Dépôt sur data.gouv.fr
 
 Pour chaque fiche publiée il est essentiel de demander aux éditeurs de profils d’acheteurs d’associer le mot-clé (« tag ») suivant : « decp » (données essentielles de la commande publique) afin de permettre la centralisation de l’ensemble des contributions par Etalab.
 

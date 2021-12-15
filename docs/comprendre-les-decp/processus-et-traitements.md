@@ -5,7 +5,7 @@ Plusieurs processus s'exécutent de manière automatisée dans le cadre du [cycl
 * **decp-rama**
 * **decp-augmente**
 
-## decp-gw
+### decp-gw
 
 #### Description
 
@@ -40,7 +40,7 @@ Téléchargement des données PES marché de la DGFiP et publication sur *data.g
 
 
 
-## decp-rama
+### decp-rama
 
 #### Description
 
@@ -87,9 +87,7 @@ Consolidation de tous les sources DECP et publication sur *data.gouv.fr*.
 
 #### Détails des traitements réalisés
 
-##### Correction des anomalies
-
-###### Données non respectueuses des schémas réglementaires
+###### Traitement des données non respectueuses des schémas réglementaires
 
 Données ne respectant pas la structure définie par les [schémas](comprendre-les-decp/schemas.md), et donc la structure définie dans la réglementation. Ces anomalies ne sont corrigées que si elles sont détectées et qu'elles peuvent être corrigées.
 
@@ -100,7 +98,7 @@ Par exemple :
 
 Les données consolidées ne sont donc pas conformes aux schémas car les données publiées par les partenaires ne sont pas toujours valides et que l'on ne peut pas corriger toutes les entorses aux schémas.
 
-###### Données inexploitables
+###### Traitement des données inexploitables
 
 Données incohérentes ou manifestement erronées, susceptibles d'altérer significativement leur analyse.
 
@@ -139,7 +137,7 @@ Résultat :
   - XML réglementaire
 
 
-## decp-augmente
+### decp-augmente
 
 #### Description
 

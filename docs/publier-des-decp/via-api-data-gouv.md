@@ -7,15 +7,13 @@ Afin de faciliter la localisation et donc l’utilisation des données essentiel
 - Structure **plateforme** : un jeu de données (`dataset` dans l’API) par plateforme de marchés (identifiée par son SIRET), adapté à la publication par une plateforme des données de ses clients ou adhérents ;
 - Structure **acheteur** : un jeu de données par acheteur public (SIRET), adapté à la publication par un acheteur de ses propres données.
 
-## Structure des données à publier 
+### Structure des données à publier 
 
 La structure des données à publier est définie par des [schémas de données](schemas.md) aux formats XML et JSON.
 
 Pour en savoir plus sur la publication des données, consultez [le site de la direction des affaires juridiques](https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique), ainsi que [l’article de blog](https://www.data.gouv.fr/fr/posts/le-point-sur-les-donnees-essentielles-de-la-commande-publique/) consacré par data.gouv.fr à ce sujet.
 
-
-
-## Jeu de données
+### Jeu de données
 
 Pour des raisons d’archivage, le téléversement des fichiers de données sur data.gouv.fr est fortement préféré par rapport à un lien vers des serveurs externes.
 

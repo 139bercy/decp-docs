@@ -1,6 +1,6 @@
 # Sources des données <!-- {docsify-ignore-all} -->
 
-## Sources théoriques
+### Sources théoriques
 
 Les données essentielles publiées sur data.gouv.fr proviennent de trois sources :
 
@@ -8,7 +8,7 @@ Les données essentielles publiées sur data.gouv.fr proviennent de trois source
 2. L’**AIFE (Agence Informatique des Finances de l’État)** publie sur [data.gouv.fr](https://data.gouv.fr) les données essentielles provenant des places de marchés qui utilisent son service, et notamment de la plateforme de marchés de l’État, [PLACE](https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise) ;
 3. Les données essentielles publiées sur les profils d’acheteurs (places de marché) peuvent être publiées sur data.gouv.fr par l’intermédiaire de l’API data.gouv.fr ou d’un fichier DCAT moissonnable.
 
-## Données publiées
+### Données publiées
 
 Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.
 
