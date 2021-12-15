@@ -1,4 +1,4 @@
-<img src="_media/logo.png" alt="logo" height=50/>
+<img src="_media/logo.png" alt="logo" height=100/>
 
 # Documentation des Données Essentielles de la Commande Publique (DECP)
 
