@@ -12,6 +12,6 @@ Les données essentielles publiées sur data.gouv.fr proviennent de trois source
 
 Afin de faciliter leur réutilisation, l'État rassemble les données publiées par les partenaires et les profils d'acheteurs dans un jeu de données unique.
 
-Au cours de cette étape de consolidation, des opérations de mise en qualité et de résolution des anomalies sont réalisées ([en savoir plus](processus-et-traitements.md)).
+Au cours de cette étape de consolidation, des opérations de mise en qualité et de résolution des anomalies sont réalisées ([en savoir plus](comprendre-les-decp/processus-et-traitements.md)).
 
 Ce jeu de données peut être consulté et téléchargé sur [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/5cd57bf68b4c4179299eb0e9/).

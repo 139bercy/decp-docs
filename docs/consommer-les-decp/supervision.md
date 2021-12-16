@@ -8,7 +8,7 @@ Un outil de supervision de la publication des données est disponible [ici](http
 
 ### Rapport d'analyse des marchés
 
-Un rapport suivant le nombre de marché, leur volume ou encore leur répartitiion géographique est disponible [ici](https://datavision.economie.gouv.fr/decp/?view=France)
+Un rapport suivant le nombre de marché, leur volume ou encore leur répartition géographique est disponible [ici](https://datavision.economie.gouv.fr/decp/?view=France).
 
 ### Rapport de couverture des DECP
 

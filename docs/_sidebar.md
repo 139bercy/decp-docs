@@ -8,7 +8,7 @@
   * [Sources](comprendre-les-decp/sources.md)
   * [Cycle de vie](comprendre-les-decp/cycle-de-vie.md)
   * [Schémas de données](comprendre-les-decp/schemas.md)
-  * [Processus automatisés](comprendre-les-decp/processus-et-traitements.md)
+  * [Processus automatisés](comprendre-les-decp/processus-automatises.md)
 
 * Publier des DECP
 
