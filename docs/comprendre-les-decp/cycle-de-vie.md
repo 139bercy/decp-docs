@@ -13,6 +13,7 @@ Les DECP peuvent être remontées par deux principales voies :
 * Voie "AIFE" :
     1. Le profil acheteur (PLACE ou autre) du SI Achats de l'acheteur remonte les marchés jusqu'à l'AIFE par l'API AIFE ;
     2. L'AIFE publie ensuite les marchés sur *data.gouv.fr* par l'API.
+    
 A la marge, certains acheteurs remontent directement leurs DECP vers *data.gouv.fr* sans passer par la voie AIFE ou PES Marché. Ces flux ne figurent pas sur le schéma.
 
 ### Consolidation et traitements ultérieurs à la remontée sur *data.gouv.fr*
